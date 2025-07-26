@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": "f98d",
+      "userId": "1234567",
+      "firstName": "E",
+      "lastName": "Ashok",
+      "phone": "6379760878",
+      "password": "ashokatg",
+      "dob": "2002-06-10",
+      "joiningDate": "2025-07-13",
+      "email": "ashokatg10@gmail.com",
+      "role": "Manager",
+      "isLoggedIn": false
+    },
+    {
+      "id": "f582",
+      "userId": "24568927",
+      "firstName": "Mythu",
+      "lastName": "E",
+      "phone": "6379760878",
+      "password": "ashokatg",
+      "role": "Admin",
+      "dob": "2002-09-05",
+      "joiningDate": "2025-07-13",
+      "department": "Developer",
+      "email": "mythuu592@gmail.com",
+      "isLoggedIn": false
+    },
+    {
+      "id": "9f38",
+      "userId": "23556",
+      "firstName": "Employee",
+      "lastName": "1",
+      "phone": "8765432109",
+      "password": "employee1",
+      "role": "Employee",
+      "dob": "2000-09-11",
+      "joiningDate": "2025-07-14",
+      "department": "Developer",
+      "email": "employee1@gmail.com",
+      "isLoggedIn": false
+    },
+    {
+      "id": "6dbf",
+      "userId": "3456677",
+      "firstName": "Employee",
+      "lastName": "2",
+      "phone": "7654318907",
+      "password": "ashokatg",
+      "role": "Employee",
+      "dob": "2002-05-13",
+      "joiningDate": "2025-07-14",
+      "department": "IT",
+      "email": "employee2@gmail.com"
+    },
+    {
+      "id": "9976",
+      "userId": "2466767464",
+      "firstName": "Navin",
+      "lastName": "E",
+      "phone": "7654389765",
+      "password": "hr123",
+      "role": "Hr",
+      "dob": "1997-06-09",
+      "joiningDate": "2025-07-15",
+      "department": "",
+      "email": "navinhr1@gmail.com",
+      "gender": "Male",
+      "isLoggedIn": true
+    },
+    {
+      "id": "f069",
+      "userId": "24568926",
+      "firstName": "Employee",
+      "lastName": "3",
+      "email": "employee3@gmail.com",
+      "phone": "00000000000",
+      "password": "ashokatg",
+      "role": "Employee",
+      "dob": "2025-07-17",
+      "joiningDate": "2025-07-17",
+      "department": "Frontend"
+    },
+    {
+      "id": "61bd",
+      "userId": "1234587",
+      "firstName": "Kanish",
+      "lastName": "R",
+      "email": "kanish123@gmail.com",
+      "phone": "6373450878",
+      "password": "kanish123",
+      "roll": "Employee",
+      "dob": "1993-05-11",
+      "joiningDate": "2025-07-17",
+      "department": "Testing",
+      "gender": "Male"
+    },
+    {
+      "id": "8a70",
+      "userId": "12345678",
+      "firstName": "Employee",
+      "lastName": "4",
+      "email": "employee4@gmail.com",
+      "phone": "6379760899",
+      "password": "employee4",
+      "role": "Employee",
+      "dob": "2002-07-04",
+      "joiningDate": "2025-07-19",
+      "department": "Telecalling",
+      "gender": "Male"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "1",
+      "title": "Team Meeting",
+      "description": "We will have a project discussion meeting.",
+      "date": "2025-07-15",
+      "time": "10:00 AM",
+      "createdBy": "manager"
+    },
+    {
+      "id": "06f9",
+      "title": "Birth Announcement",
+      "description": "hi, employee's joining the celebration event",
+      "date": "2025-07-16",
+      "time": "01:03",
+      "createdBy": "manager"
+    },
+    {
+      "id": "0ba2",
+      "title": "birthday",
+      "description": "hii ,employees join the celebration",
+      "date": "2025-07-17",
+      "time": "03:00",
+      "createdBy": "manager"
+    },
+    {
+      "id": "e01c",
+      "title": "birth",
+      "description": "join all employees",
+      "date": "2025-07-22",
+      "time": "02:30",
+      "createdBy": "manager"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "d8d8",
+      "userId": "24568927",
+      "name": "Mythu",
+      "role": "Employee",
+      "leaveType": "Sick",
+      "startDate": "2025-07-17",
+      "endDate": "2025-07-22",
+      "reason": "fever",
+      "status": "Rejected"
+    },
+    {
+      "id": "28f8",
+      "userId": "24568927",
+      "name": "Mythu",
+      "role": "Admin",
+      "leaveType": "Sick",
+      "startDate": "2025-07-18",
+      "endDate": "2025-07-20",
+      "reason": "Pls approvel the leave",
+      "status": "Approved"
+    },
+    {
+      "id": "c39c",
+      "userId": "23556",
+      "name": "employee1",
+      "role": "Employee",
+      "leaveType": "Sick",
+      "startDate": "2025-07-19",
+      "endDate": "2025-07-23",
+      "reason": "fever",
+      "status": "Approved"
+    },
+    {
+      "id": "a396",
+      "userId": "23556",
+      "name": "Employee1",
+      "role": "employee",
+      "leaveType": "Casual",
+      "startDate": "0078-08-31",
+      "endDate": "0979-08-06",
+      "reason": "aahah",
+      "status": "Approved"
+    },
+    {
+      "id": "4517",
+      "userId": "2466767464",
+      "name": "navin",
+      "role": "hr",
+      "leaveType": "Casual",
+      "startDate": "2025-05-04",
+      "endDate": "2025-05-07",
+      "reason": "leave",
+      "status": "Rejected"
+    }
+  ]
+}
