@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../logo.jpg';
 import { MdMenuOpen } from "react-icons/md";
-import { FaPiggyBank, FaRegUserCircle, FaUserAlt, FaIdCard } from "react-icons/fa";
+import { FaRegUserCircle, FaUserAlt, FaIdCard } from "react-icons/fa";
 import { GrBladesVertical } from "react-icons/gr";
 import { IoPersonAdd } from "react-icons/io5";
 import { FcLeave } from "react-icons/fc";
-import { RxDashboard } from "react-icons/rx";
 import axios from 'axios';
 import { Outlet, useNavigate } from 'react-router-dom';
 import Logout from '../Logout';
@@ -15,8 +14,7 @@ const menuItems = [
   { icons: <FaRegUserCircle size={20} />, label: 'Post Event', path: '/manager/post-announcement' },
   { icons: <IoPersonAdd size={20} />, label: 'Add & Update', path: '/addupdate' },
   { icons: <FcLeave size={20} />, label: 'Leave Request', path: '/manager/leave-approval' },
-  { icons: <RxDashboard size={20} />, label: 'Dashboard', path: '/dashboard' },
-  { icons: <FaPiggyBank size={20} />, label: 'Salary', path: '/salary' }
+  
 ];
 
 function Manager() {
